@@ -59,7 +59,7 @@ Keep the response concise and specific to the investigation. Do not propose code
 
 ### Actual Copilot Output
 
-Generated and preserved the unrefined zero-shot result as [zero-shot-baseline.html](../../zero-shot-baseline.html). It contains a generic disaster-preparedness heading, a short introduction, and four static tips about water and food, a flashlight and first-aid kit, evacuation, and phone numbers. This baseline is retained separately and does not replace the final prototype.
+Generated and preserved the unrefined zero-shot result as [zero-shot-baseline.html](zero-shot-baseline.html). It contains a generic disaster-preparedness heading, a short introduction, and four static tips about water and food, a flashlight and first-aid kit, evacuation, and phone numbers. This baseline is retained separately and does not replace the final prototype.
 
 ### Observation
 
