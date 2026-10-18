@@ -126,7 +126,7 @@ The review also noted that the page uses semantic sections and headings, explici
 >
 > Generate four additional general disaster preparedness items using the same format and render all of them as an interactive checklist. The checklist should allow users to mark each item as completed and should be easy to use on both mobile and desktop screens.
 
-**Actual Copilot Output:** Updated [index.html](../../index.html) with six categorized items and descriptions, and [styles.css](style.css) with responsive, touch-friendly checklist cards. Kept the existing progress and saved-checkbox behavior in [script.js](script.js).
+**Actual Copilot Output:** Updated [index.html](index.html) with six categorized items and descriptions, and [styles.css](style.css) with responsive, touch-friendly checklist cards. Kept the existing progress and saved-checkbox behavior in [script.js](script.js).
 
 **What Worked:** Mouse and keyboard toggles updated progress; the checklist showed all six items; the 390px mobile viewport had no horizontal overflow. Existing saved state remained functional.
 
@@ -146,7 +146,7 @@ Use source inspection and browser testing to identify important accessibility an
 
 ### Actual Copilot Output
 
-The review and browser checks identified two high-impact issues: the skip link changed the URL fragment but did not move keyboard focus into the main content, and the Safety reminders navigation link was hidden at mobile widths below 480px. Applied small fixes in [index.html](../../index.html) and [styles.css](../../styles.css): made the main target programmatically focusable and kept all three navigation links visible in a mobile row with 44px-high targets.
+The review and browser checks identified two high-impact issues: the skip link changed the URL fragment but did not move keyboard focus into the main content, and the Safety reminders navigation link was hidden at mobile widths below 480px. Applied small fixes in [index.html](index.html) and [styles.css](../../styles.css): made the main target programmatically focusable and kept all three navigation links visible in a mobile row with 44px-high targets.
 
 ### What Worked
 
